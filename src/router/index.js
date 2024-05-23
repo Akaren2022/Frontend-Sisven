@@ -9,6 +9,10 @@ import ListarCategorias from '../views/Categorias.vue'
 import NuevaCategoria from '../components/categorias/NuevaCategoria.vue'
 import EditarCategoria from '../components/categorias/EditarCategoria.vue'
 
+import ListarMetodo from '../views/MetodosPago.vue'
+import NuevoMetodo from '../components/metodos/NuevoMetodo.vue'
+import EditarMetodo from '../components/metodos/EditarMetodo.vue'
+
 const routes = [
   {
     path: '/',
@@ -44,6 +48,21 @@ const routes = [
     path: '/editar-Categoria/:id',
     name: 'EditarCategoria',
     component: EditarCategoria
+  },
+  {
+    path: '/metodos',
+    name: 'ListarMetodo',
+    component: ListarMetodo
+  },
+  {
+    path: '/metodos/nuevo',
+    name: 'NuevoMetodo',
+    component: NuevoMetodo
+  },
+  {
+    path: '/editar-metodo/:id',
+    name: 'EditarMetodo',
+    component: EditarMetodo
   },
   {
     path: '/about',
