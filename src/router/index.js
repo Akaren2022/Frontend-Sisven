@@ -13,6 +13,10 @@ import ListarMetodo from '../views/MetodosPago.vue'
 import NuevoMetodo from '../components/metodos/NuevoMetodo.vue'
 import EditarMetodo from '../components/metodos/EditarMetodo.vue'
 
+import ListarProductos from '../views/Productos.vue'
+import NuevoProducto from '../components/productos/NuevoProducto.vue'
+import EditarProducto from '../components/productos/EditarProducto.vue'
+
 const routes = [
   {
     path: '/',
@@ -63,6 +67,21 @@ const routes = [
     path: '/editar-metodo/:id',
     name: 'EditarMetodo',
     component: EditarMetodo
+  },
+  {
+    path: '/productos',
+    name: 'ListarProductos',
+    component: ListarProductos
+  },
+  {
+    path: '/productos/nuevo',
+    name: 'NuevoProducto',
+    component: NuevoProducto
+  },
+  {
+    path: '/editar-productos/:id',
+    name: 'EditarProducto',
+    component: EditarProducto,
   },
   {
     path: '/about',

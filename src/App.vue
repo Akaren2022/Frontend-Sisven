@@ -3,6 +3,7 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/clientes">Clientes</router-link> |
     <router-link to="/categorias">Categorias</router-link> |
+    <router-link to="/productos">Productos</router-link> |
     <router-link to="/metodos">Metodos de Pago</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
